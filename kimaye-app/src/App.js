@@ -5,6 +5,7 @@ import "./App.css";
 
 // import { Footer } from "./footer/Footer";
 import Navbar from "./Navbar/Navbar";
+import { Footer } from "./footer/Footer";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -42,7 +43,7 @@ function App() {
           }
         /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
