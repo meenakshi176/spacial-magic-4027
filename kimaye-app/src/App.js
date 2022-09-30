@@ -3,9 +3,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-// import { Footer } from "./footer/Footer";
 import Navbar from "./Navbar/Navbar";
 import { Footer } from "./footer/Footer";
+import { Home } from "./Navbar/Pages/Home";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -29,7 +29,7 @@ function App() {
       <Navbar setShow={setShow} size={cart.length} />
 
       <Routes>
-        {/* <Route path="/Home" element={<Home />} /> */}
+        {<Route path="/Home" element={<Home />} />}
 
         {/* <Route
           path="/Products"
